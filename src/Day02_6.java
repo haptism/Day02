@@ -32,7 +32,7 @@ public class Day02_6 {
 		 * Scanner sc3 = new Scanner(System.in); System.out.println("수학 점수 : "); int
 		 * math = sc3.nextInt();
 		 * 
-		 * int sum = kor + eng + math; int avg = sum / 3;8
+		 * int sum = kor + eng + math; int avg = sum / 3;
 		 */
 
 		/*int kor = 30;
