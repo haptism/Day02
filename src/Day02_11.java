@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Day02_11 {
 
 	public static void main(String[] args) {
+		
 		// 국어, 영어, 수학 입력
 		// 평균이 90점 이상이면 A
 		// 평균이 80점 이상이면 B

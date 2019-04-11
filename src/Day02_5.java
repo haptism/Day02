@@ -1,8 +1,10 @@
 import java.util.Scanner;
 
 public class Day02_5 {
+
 	public static void main(String[] args) {
-		/*int score = 60;
+		
+		int score = 60;
 
 		if (score >= 60) {
 			System.out.println("합격");
@@ -25,25 +27,23 @@ public class Day02_5 {
 		System.out.println("PW 입력 ");
 		int yPw = sc.nextInt();
 
-		if (id == yId && pw == yPw) {
-			System.out.println("로그인 성공");
+//		if (id == yId && pw == yPw) {
+//			System.out.println("로그인 성공");
+//
+//		} else {
+//			System.out.println("로그인 실패");
+//		}
 
-		} else {
-			System.out.println("로그인 실패");
+		// 단일 if문
 
-			// 단일 if문
-			String result = "로그인 실패";
-			if (id == yId && pw == yPw) {
-				result = "로그인 성공";
-				{
-			System.out.println();*/
-		
-				
-				}
-			
+//		String result = "로그인 실패";
+//		if (id == yId && pw == yPw) {
+//			result = "로그인 성공";
+//			{
+//				System.out.println(result);
 
+		String result = yId == id && yPw == pw ? "로그인성공" : "로그인실패";
+		System.out.println(result);
+
+	}
 }
-
-						
-		
-		
